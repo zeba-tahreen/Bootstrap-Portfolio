@@ -5,28 +5,58 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
 <style>
+
+    body {
+        margin: 1%;
+        background-image: url(https://previews.123rf.com/images/extezy/extezy1610/extezy161000046/68963631-seamless-islam-pattern-vintage-floral-background-vector-islamic-royal-gold-pattern-oriental-design-a.jpg);
+
+
+    }
 .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color: bisque;
+    margin-bottom: 1%;
+    border-radius: 6px;
+    background-color: rgba(151, 121, 76, 0.877);
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
 }
-.navbar-brand {
+.navbar-brand { 
     float: left;
     min-height: 55px;
     padding: 0 15px 5px;
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-    color: rgb(146, 102, 8);
-    background-color: bisque;
+    color: rgb(165, 32, 32);
+    background-color: white;
+    border-radius: 4px;
+}
+
+.jumbotron { /*background-image: url(https://ak9.picdn.net/shutterstock/videos/22870939/thumb/1.jpg);*/
+    background-color: rgba(218, 184, 143, 0.685);
+    margin-bottom: 1%;
+    border-radius: 6px ;
+    border-color: black solid;
+
 
 }
 
+h1, h2 {
+    color: rgb(165, 32, 32);
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(151, 121, 76, 0.877);
+    border-radius: 6px ;
+    text-align: center;
+    padding: 25px;
+
+}
 
 </style>
 </head>
@@ -40,7 +70,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="assets/zeba.jpg"></a>
+                <a class="navbar-brand" href="#"><img src="assets/zeba1.png"></a>
 
             </div>
 
@@ -56,7 +86,33 @@
         </div>
     </nav>
 
+    <div class="jumbotron">
 
+            <!-- centered text -->
+            <h1 class="text-center">{Bootstrap}</h1>
+            <h2 class="text-center">Quick Introduction</h2>
+          </div>
 
+          
+      <div class="jumbotron">
+            What is Bootstrap?
+Bootstrap is a free front-end framework for faster and easier web development
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, 
+tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs
+
+<br>
+<br>
+What is Responsive Web Design?
+Responsive web design is about creating web sites which automatically adjust themselves to look good 
+on all devices, from small phones to large desktops.
+          </div>
+
+          <footer class="footer mt-auto py-3">
+                <div class="container">© 2019 Copyright:
+                  <span class="text-muted"><a href="https://zeba-tahreen.github.io/"> Zeba-Tahreen</a></span>
+                </div>
+              </footer>
+              
 </body>
 </html>
